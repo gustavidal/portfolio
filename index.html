@@ -3,16 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo.png" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="./main.js" defer></script>
 </head>
 <body>
-    <header>
-        <p>teste header</p>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">
+                        <img src="./img/logo.png" alt="Gustavo Vidal" class="logo-image logo-light">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" data-pt="Início" data-en="Home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" data-pt="Sobre Mim" data-en="About Me">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#trajectory" class="nav-link" data-pt="Trajetória" data-en="Journey">Trajetória</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link" data-pt="Meus Projetos" data-en="My Projects">Meus Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-pt="Entre em Contato" data-en="Get in Touch">Entre em Contato</a>
+                    </li>
+                </ul>
+                <div class="header-controls">
+                    <button class="language-toggle" id="languageToggle" title="Traduzir para inglês">
+                        <i class="fas fa-globe"></i>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle" title="Alternar modo escuro">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-        <p>teste main</p>
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Olá, eu sou <span>Gustavo Vidal</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Desenvolvedor Back-End criando experiências digitais modernas e funcionais.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary">Ver Projetos</a>
+                        <a href="#contact" class="btn secondary">Contato</a>
+                    </div>
+                </div>
+        
+                <div class="hero-image">
+                    <img src="./img/profile/img1.jpg" class="hero-slide active" alt="Imagem 1 (rosto de lado)">
+                    <img src="./img/profile/img2.jpg" class="hero-slide" alt="Imagem 2 (rosto de frente)">
+                    <img src="./img/profile/img3.jpg" class="hero-slide" alt="Imagem 3 (rosto pra cima)">
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>teste footer</p>
