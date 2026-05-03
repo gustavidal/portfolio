@@ -61,15 +61,15 @@
         <section class="hero" id="home">
             <div class="hero-container">
                 <div class="hero-content">
-                    <h1 class="hero-title">
+                    <h1 class="hero-title" data-pt='Olá, eu sou <span>Gustavo Vidal</span>' data-en='Hi, I am <span>Gustavo Vidal</span>'>
                         Olá, eu sou <span>Gustavo Vidal</span>
                     </h1>
-                    <p class="hero-subtitle">
+                    <p class="hero-subtitle" data-pt="Desenvolvedor Back-End criando experiências digitais modernas e funcionais." data-en="Back-End Developer creating modern and functional digital experiences.">
                         Desenvolvedor Back-End criando experiências digitais modernas e funcionais.
                     </p>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn primary">Ver Projetos</a>
-                        <a href="#contact" class="btn secondary">Contato</a>
+                        <a href="#projects" class="btn primary" data-pt="Ver Projetos" data-en="View Projects">Ver Projetos</a>
+                        <a href="#contact" class="btn secondary" data-pt="Contato" data-en="Contact">Contato</a>
                     </div>
                 </div>
         
@@ -80,9 +80,135 @@
                 </div>
             </div>
         </section>
+        <!-- SOBRE MIM -->
+        <section class="about" id="about">
+            <div class="section-container">
+                <h2 class="section-title" data-pt="Sobre Mim" data-en="About Me">Sobre Mim</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-pt="Sou um desenvolvedor Back-End apaixonado por construir sistemas robustos e escaláveis. Tenho experiência com Node.js, JavaScript e Java, sempre focado em escrever código limpo, eficiente e de fácil manutenção." data-en="I'm a Back-End developer passionate about building robust and scalable systems. I have experience with Node.js, JavaScript and Java, always focused on writing clean, efficient and maintainable code.">
+                            Sou um desenvolvedor Back-End apaixonado por construir sistemas robustos e escaláveis. Tenho experiência com Node.js, JavaScript e Java, sempre focado em escrever código limpo, eficiente e de fácil manutenção.
+                        </p>
+                        <p data-pt="Gosto de resolver problemas complexos e transformar ideias em soluções reais que fazem diferença. Estou sempre em busca de novos aprendizados e desafios que me ajudem a crescer como profissional." data-en="I enjoy solving complex problems and transforming ideas into real solutions that make a difference. I'm always looking for new learnings and challenges that help me grow as a professional.">
+                            Gosto de resolver problemas complexos e transformar ideias em soluções reais que fazem diferença. Estou sempre em busca de novos aprendizados e desafios que me ajudem a crescer como profissional.
+                        </p>
+                    </div>
+                    <div class="about-skills">
+                        <h3 data-pt="Tecnologias" data-en="Technologies">Tecnologias</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="devicon-javascript-plain colored"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-nodejs-plain colored"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-express-original"></i>
+                                <span>Express</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-mysql-plain colored"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-java-plain colored"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-git-plain colored"></i>
+                                <span>Git</span>
+                            </div>
+                        </div>
+                        <div class="skills-extra">
+                            <span class="skill-badge">Knex.js</span>
+                            <span class="skill-badge">CORS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRAJETÓRIA -->
+        <section class="trajectory" id="trajectory">
+            <div class="section-container">
+                <h2 class="section-title" data-pt="Trajetória" data-en="Journey">Trajetória</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 – <span data-pt="Presente" data-en="Present">Presente</span></span>
+                            <h3 data-pt="Desenvolvimento Back-End" data-en="Back-End Development">Desenvolvimento Back-End</h3>
+                            <p data-pt="Aprofundamento em Node.js, APIs RESTful, Java e boas práticas de arquitetura de software." data-en="Deep dive into Node.js, RESTful APIs, Java and software architecture best practices.">Aprofundamento em Node.js, APIs RESTful, Java e boas práticas de arquitetura de software.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023</span>
+                            <h3 data-pt="Início na Programação" data-en="Start in Programming">Início na Programação</h3>
+                            <p data-pt="Primeiros passos com lógica de programação, JavaScript e desenvolvimento web." data-en="First steps with programming logic, JavaScript and web development.">Primeiros passos com lógica de programação, JavaScript e desenvolvimento web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="projects" id="projects">
+            <div class="section-container">
+                <h2 class="section-title" data-pt="Meus Projetos" data-en="My Projects">Meus Projetos</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-ticket-alt project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/gustavidal" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-name">Rifa de Páscoa</h3>
+                        <p class="project-desc" data-pt="Sistema de gerenciamento de rifas online. Permite criação, venda e controle de bilhetes com back-end robusto para garantir integridade dos dados." data-en="Online raffle management system. Allows creation, sale and control of tickets with a robust back-end to ensure data integrity.">
+                            Sistema de gerenciamento de rifas online. Permite criação, venda e controle de bilhetes com back-end robusto para garantir integridade dos dados.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="contact" id="contact">
+            <div class="section-container">
+                <h2 class="section-title" data-pt="Entre em Contato" data-en="Get in Touch">Entre em Contato</h2>
+                <p class="contact-subtitle" data-pt="Tem algum projeto em mente ou quer trocar uma ideia? Me manda uma mensagem!" data-en="Have a project in mind or want to chat? Send me a message!">
+                    Tem algum projeto em mente ou quer trocar uma ideia? Me manda uma mensagem!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:gustavovidalgva@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>gustavovidalgva@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/gustavidal" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/gustavidal</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gustavvidal/" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/gustavvidal</span>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>teste footer</p>
+    <footer class="footer">
+        <div class="footer-container">
+            <p data-pt='Desenvolvido por <strong>Gustavo Vidal de Abreu</strong>' data-en='Developed by <strong>Gustavo Vidal de Abreu</strong>'>Desenvolvido por <strong>Gustavo Vidal de Abreu</strong></p>
+        </div>
     </footer>
 </body>
 </html>
