@@ -1,107 +1,192 @@
-<div align="center">
+# 🚀 Portfólio — Gustavo Vidal de Abreu
 
-<img src="./img/logo.png" alt="Gustavo Vidal" width="300"/>
+<p align="center">
+  <strong>Portfólio moderno, responsivo e multilíngue desenvolvido com HTML, CSS e JavaScript.</strong>
+</p>
 
-# Gustavo Vidal de Abreu
-
-### 🖥️ Back-End Developer
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-gustavvidal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavvidal/)
-[![GitHub](https://img.shields.io/badge/GitHub-gustavidal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gustavidal)
-[![Gmail](https://img.shields.io/badge/Gmail-gustavovidalgva@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gustavovidalgva@gmail.com)
-
-</div>
-
----
-
-## 👨‍💻 Sobre o Projeto
-
-Portfólio pessoal desenvolvido do zero com HTML, CSS e JavaScript puro. O site apresenta minha trajetória, stack técnica e projetos de forma clean, responsiva e com suporte a **modo escuro** e **tradução PT/EN**.
-
-> 🔗 **[Acessar portfólio](https://gustavidal.github.io/portfolio/)**
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-007BFF?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Responsive-Yes-111827?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Dark%20Mode-Enabled-1E293B?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Language-PT%20%2F%20EN-4F46E5?style=for-the-badge">
+</p>
 
 ---
 
-## ✨ Funcionalidades
+# 📖 Sobre o Projeto
 
-- 🌙 **Modo escuro / claro** — com persistência via `localStorage`
-- 🌐 **Tradução PT ↔ EN** — alternância dinâmica de idioma
-- 📱 **Responsivo** — adaptado para mobile, tablet e desktop
-- 🎞️ **Slideshow** — troca automática de fotos no hero
-- 🧭 **Menu mobile** — hamburguer funcional para telas pequenas
-- ⚡ **Sem frameworks** — JavaScript puro, rápido e leve
+Este projeto foi desenvolvido com o objetivo de demonstrar minhas habilidades técnicas e organizacionais no desenvolvimento de um projeto real.
 
----
+Além da programação, o foco principal foi praticar:
 
-## 🛠️ Stack do Projeto
+* 📅 Gestão de prazos
+* 📌 Organização de tarefas
+* 👥 Divisão de responsabilidades
+* 🧠 Planejamento de funcionalidades
+* 🛠️ Estruturação de projeto
+* 🚀 Entrega de uma aplicação completa
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+O portfólio também representa minha evolução como desenvolvedor Back-End em formação, reunindo projetos, tecnologias, trajetória acadêmica e formas de contato profissional.
 
----
+Além disso, o site foi construído com foco em:
 
-## 💡 Tecnologias que Estudo
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Knex.js](https://img.shields.io/badge/Knex.js-D26B38?style=flat-square&logo=knex.js&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+* 🎨 Design moderno
+* 📱 Responsividade
+* 🌙 Dark Mode
+* 🌎 Tradução PT/EN
+* ⚡ Performance
+* ✨ Animações suaves
 
 ---
 
-## 📁 Estrutura do Projeto
+# 🖼️ Preview
+
+## 💻 Desktop
+
+<p align="center">
+  <img src="./img/readme/desktop-preview.png" alt="Desktop Preview">
+</p>
+
+## 📱 Mobile
+
+<p align="center">
+  <img src="./img/readme/mobile-preview.png" width="300" alt="Mobile Preview">
+</p>
+
+---
+
+# 🛠️ Tecnologias Utilizadas
+
+## Front-End
+
+* HTML5
+* CSS3
+* JavaScript
+
+## Bibliotecas
+
+* Font Awesome
+* Devicon
+* Google Fonts
+
+---
+
+# ✨ Funcionalidades
+
+## 🎞️ Slideshow de imagens
+
+Troca automática das imagens da seção principal.
+
+## 🌙 Dark Mode
+
+Alternância entre tema claro e escuro com salvamento no `localStorage`.
+
+## 🌎 Tradução PT/EN
+
+Sistema de tradução dinâmica utilizando atributos `data-*`.
+
+## 📱 Responsividade
+
+Layout adaptado para:
+
+* Desktop
+* Tablets
+* iPad Mini
+* Smartphones
+* iPhone SE
+
+## ✨ Scroll Animation
+
+Animações suaves conforme os elementos entram na tela.
+
+## 🔥 Navbar Blur
+
+Navbar moderna utilizando `backdrop-filter`.
+
+---
+
+# 📂 Estrutura do Projeto
 
 ```
-portfolio/
-├── 📄 index.html
-├── 📜 main.js
-├── 📂 css/
-│   ├── reset.css
-│   └── style.css
-└── 📂 img/
-    ├── logo.png
-    ├── 📂 profile/
-    │   ├── img1.jpg
-    │   ├── img2.jpg
-    │   └── img3.jpg
-    └── 📂 svg/
-        └── icon.svg
+📁 portfolio
+ ┣ 📂 css
+ ┃ ┣ 📄 reset.css
+ ┃ ┗ 📄 style.css
+ ┣ 📂 img
+ ┃ ┣ 📂 profile
+ ┃ ┃ ┣ 📸 img1.jpg
+ ┃ ┃ ┣ 📸 img2.jpg
+ ┃ ┃ ┗ 📸 img3.jpg
+ ┃ ┣ 📂 readme
+ ┃ ┃ ┣ 📸 desktop-preview.png
+ ┃ ┃ ┗ 📸 mobile-preview.png
+ ┃ ┣ 📂 svg
+ ┃ ┃ ┗ 📸 icon.svg
+ ┃ ┗ 📸 logo.png
+ ┣ 📄 index.html
+ ┣ 📄 LICENSE
+ ┣ 📄 main.js
+ ┗ 📄 README.md
 ```
 
 ---
 
-## 🚀 Como Rodar Localmente
+# 🚀 Como Executar
+
+## 1️⃣ Clone o repositório
 
 ```bash
-# Clone o repositório
 git clone https://github.com/gustavidal/portfolio.git
+```
 
-# Acesse a pasta
-cd portfolio
+## 2️⃣ Abra o projeto
 
-# Abra no navegador
-# Basta abrir o arquivo index.html no seu navegador preferido
-# ou usar a extensão Live Server no VS Code
+Abra o arquivo:
+
+```bash
+index.html
 ```
 
 ---
 
-## 📬 Contato
+# 📸 Recursos Visuais
 
-Quer bater um papo ou tem algum projeto em mente?
-
-- 📧 **E-mail:** [gustavovidalgva@gmail.com](mailto:gustavovidalgva@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/gustavvidal](https://www.linkedin.com/in/gustavvidal/)
-- 🐙 **GitHub:** [github.com/gustavidal](https://github.com/gustavidal)
+* Glassmorphism
+* Hover Effects
+* Grid Layout
+* Smooth Transitions
+* Mobile Navigation
+* Timeline UI
+* Project Cards
 
 ---
 
-<div align="center">
+# 📚 Aprendizados
 
-Feito com 💙 por **Gustavo Vidal de Abreu**
+Durante o desenvolvimento deste projeto, pratiquei:
 
-</div>
+* Responsividade avançada
+* Manipulação do DOM
+* Organização de CSS
+* Estruturação de projetos Front-End
+* Animações com JavaScript
+* Boas práticas visuais
+* UX/UI
+
+---
+
+# 📬 Contato
+
+## 👨‍💻 Gustavo Vidal de Abreu
+
+* GitHub: [https://github.com/gustavidal](https://github.com/gustavidal)
+* LinkedIn: [https://www.linkedin.com/in/gustavvidal/](https://www.linkedin.com/in/gustavvidal/)
+* Email: [gustavovidalgva@gmail.com](mailto:gustavovidalgva@gmail.com)
+
+---
+
+# ⭐ Considerações Finais
+
+Este projeto representa minha evolução como desenvolvedor e continuará recebendo melhorias ao longo da minha trajetória.
+
+Caso tenha gostado do projeto, considere deixar uma ⭐ no repositório.
