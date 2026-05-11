@@ -9,8 +9,7 @@
     <title>Portfólio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="./main.js" defer></script>
@@ -84,14 +83,14 @@
 
                 <div class="hero-image">
                     <img src="./img/profile/img1.jpg" class="hero-slide active" alt="Imagem 1 (rosto de lado)">
-                    <img src="./img/profile/img2.jpg" class="hero-slide" alt="Imagem 2 (rosto de frente)">
-                    <img src="./img/profile/img3.jpg" class="hero-slide" alt="Imagem 3 (rosto pra cima)">
+                    <img src="./img/profile/img2.jpg" class="hero-slide" alt="Imagem 2 (rosto de frente)" loading="lazy">
+                    <img src="./img/profile/img3.jpg" class="hero-slide" alt="Imagem 3 (rosto pra cima)" loading="lazy">
                 </div>
             </div>
         </section>
 
         <!-- SOBRE MIM -->
-        <section class="about" id="about">
+        <section class="about hidden" id="about">
             <div class="section-container">
                 <h2 class="section-title" data-pt="Sobre Mim" data-en="About Me">Sobre Mim</h2>
                 <div class="about-content">
@@ -153,7 +152,7 @@
         </section>
 
         <!-- TRAJETÓRIA -->
-        <section class="trajectory" id="trajectory">
+        <section class="trajectory hidden" id="trajectory">
             <div class="section-container">
                 <h2 class="section-title" data-pt="Trajetória" data-en="Journey">Trajetória</h2>
                 <div class="timeline">
@@ -191,11 +190,11 @@
         </section>
 
         <!-- PROJETOS -->
-        <section class="projects" id="projects">
+        <section class="projects hidden" id="projects">
             <div class="section-container">
                 <h2 class="section-title" data-pt="Meus Projetos" data-en="My Projects">Meus Projetos</h2>
                 <div class="projects-grid">
-                    <div class="project-card">
+                    <div class="project-card hidden">
                         <div class="project-header">
                             <i class="fas fa-ticket-alt project-icon"></i>
                             <div class="project-links">
@@ -218,7 +217,7 @@
                             <span class="tag">MySQL</span>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card hidden">
                         <div class="project-header">
                             <i class="fas fa-ticket-alt project-icon"></i>
                             <div class="project-links">
@@ -240,7 +239,7 @@
                             <span class="tag">JavaScript</span>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card hidden">
                         <div class="project-header">
                             <i class="fas fa-ticket-alt project-icon"></i>
                             <div class="project-links">
@@ -266,7 +265,7 @@
                             <span class="tag">MySQL</span>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card hidden">
                         <div class="project-header">
                             <i class="fas fa-ticket-alt project-icon"></i>
                             <div class="project-links">
@@ -292,7 +291,7 @@
         </section>
 
         <!-- CONTATO -->
-        <section class="contact" id="contact">
+        <section class="contact hidden" id="contact">
             <div class="section-container">
                 <h2 class="section-title" data-pt="Entre em Contato" data-en="Get in Touch">Entre em Contato</h2>
                 <p class="contact-subtitle"
